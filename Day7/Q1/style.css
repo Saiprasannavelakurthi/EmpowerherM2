@@ -1,4 +1,3 @@
-/* styles.css */
 :root {
   --bg: #f7f7f7;
   --card-bg: #cd9595;
@@ -66,4 +65,3 @@ body {
 .card:nth-child(8) {
   background: #e07f51; 
 }
-

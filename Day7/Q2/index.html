@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weekly Schedule</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 32px;
+      color: #e05151;
+      margin-bottom: 30px;
+    }
+
+    .schedule {
+      display: grid;
+      grid-template-columns: 100px repeat(5, 1fr);
+      gap: 5px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .cell {
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      font-weight: 600;
+      background-color: #ffe4e1;
+      border: 1px solid #ccc;
+    }
+
+    .header {
+      background-color: #e05151;
+      color: white;
+    }
+
+    .time {
+      background-color: #f0f0f0;
+      font-weight: bold;
+    }
+
+    .note {
+      margin-top: 30px;
+      max-width: 1000px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 15px;
+      border: 2px dashed #e05151;
+      border-radius: 10px;
+      background-color: #fff;
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+  <h1>✨ Weekly Schedule ✨</h1>
+  <div class="schedule">
+    <!-- Header Row -->
+    <div class="cell header">Time</div>
+    <div class="cell header">Monday</div>
+    <div class="cell header">Tuesday</div>
+    <div class="cell header">Wednesday</div>
+    <div class="cell header">Thursday</div>
+    <div class="cell header">Friday</div>
+
+    <!-- Time Rows -->
+    <div class="cell time">08:00</div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div>
+    <div class="cell time">09:00</div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div>
+    <div class="cell time">10:00</div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div>
+    <div class="cell time">11:00</div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div>
+    <div class="cell time">12:00</div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div>
+    <div class="cell time">13:00</div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div>
+    <div class="cell time">14:00</div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div>
+    <div class="cell time">15:00</div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div>
+    <div class="cell time">16:00</div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div><div class="cell"></div>
+
+  </div>
+
+  <div class="note">
+    <strong>Note:</strong> 
+  </div>
+</body>
+</html>
